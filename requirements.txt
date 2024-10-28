@@ -6,4 +6,4 @@ djangorestframework==3.14.0
 numpy==1.22.0
 pandas==2.0.3
 tensorflow
-scikitlearn
+scikit-learn
