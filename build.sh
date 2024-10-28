@@ -2,9 +2,6 @@ echo "########################################## Setting up Virtual Environment 
 python3.12 -m venv env
 source env/bin/activate
 
-echo "########################################## Upgrading pip, setuptools, and wheel ##########################################"
-python3.12 -m pip install --upgrade pip setuptools wheel
-
 echo "########################################## Installing dependencies ##########################################"
 python3.12 -m pip install -r requirements.txt
 
