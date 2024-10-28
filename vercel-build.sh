@@ -11,4 +11,4 @@ echo "########################################## Installing dependencies #######
 python3.9 -m pip install -r requirements.txt
 
 echo "########################################## 3.12 Build ##########################################"
-pip3.12 install --disable-pip-version-check
+python3.9 -m pip install some-package --disable-pip-version-check
