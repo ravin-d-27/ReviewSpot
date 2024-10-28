@@ -1,14 +1,14 @@
 #!/bin/bash
 
-echo "########################################## Setting up Virtual Environment ##########################################"
-python3.9 -m venv env
-source env/bin/activate
+# Download and install pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3.9 get-pip.py
 
 echo "########################################## Checking Python Version ##########################################"
-python --version  # This will help confirm that the correct version is used
-
-echo "########################################## Upgrading pip, setuptools, and wheel ##########################################"
-python -m pip install --upgrade pip setuptools wheel
+python3.9 --version  # This will help confirm that the correct version is used
 
 echo "########################################## Installing dependencies ##########################################"
-python -m pip install -r requirements.txt
+python3.9 -m pip install -r requirements.txt
+
+echo "########################################## 3.12 Build ##########################################"
+python3.12 -m pip install django --disable-pip-version-check
