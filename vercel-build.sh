@@ -1,9 +1,4 @@
 #!/bin/bash
-
-echo "########################################## Setting up Virtual Environment ##########################################"
-python3.9 -m venv env
-source env/bin/activate
-
 echo "########################################## Checking Python Version ##########################################"
 python --version  # This will help confirm that the correct version is used
 
