@@ -1,9 +1,13 @@
-echo "Building the project..."
+echo "Setting up Virtual Environment..."
+python3.9 -m venv env
+source env/bin/activate
+
+echo "Installing dependencies..."
 python3.9 -m pip install -r requirements.txt
 
-echo "Make Migration..."
+echo "Running Migrations..."
 python3.9 manage.py makemigrations --noinput
 python3.9 manage.py migrate --noinput
 
-echo "Collect Static..."
+echo "Collecting Static Files..."
 python3.9 manage.py collectstatic --noinput --clear
