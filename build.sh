@@ -1,7 +1,3 @@
-echo "########################################## Setting up Virtual Environment ##########################################"
-python3.9 -m venv env
-source env/bin/activate
-
 echo "########################################## Upgrading pip, setuptools, and wheel ##########################################"
 python3.9 -m pip install --upgrade pip setuptools wheel
 
