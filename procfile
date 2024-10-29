@@ -1,0 +1,1 @@
+web gunicorn ReviewSpot.wsgi:application --log-file -
