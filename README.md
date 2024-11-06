@@ -30,9 +30,10 @@ ReviewSpot leverages a neural network model built with TensorFlow to automatical
 ## Dataset Used for Training this model
 
 **IMDB Dataset of 50K Movie Reviews**
-   - Use the [IMDB Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
+   - [IMDB Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
-
+## Colab Link for Model Training:
+   - [Google Colab](https://colab.research.google.com/drive/1X95bqYuij7ks45ku2zvQDisORr0t-RjxV?usp=sharing)
 
 ## Prerequisites
 
