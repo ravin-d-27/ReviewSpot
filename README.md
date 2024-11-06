@@ -40,8 +40,6 @@ To run this project locally, you'll need the following:
 
 - **Python 3.7+**
 - **pip** (Python package installer)
-- **TensorFlow**: For model loading and predictions
-- **Flask** (or Django, depending on the framework used)
 - **Other dependencies** (listed in `requirements.txt`)
 
 ## Installation
