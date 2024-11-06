@@ -54,7 +54,8 @@ To run this project locally, you'll need the following:
 
 2. **Create a Virtual Environment (Optional)**
    ```bash
-   python3 -m venv venv
+   pip install virtualenv
+   virtualenv venv
    venv\Scripts\activate
    ```
 
