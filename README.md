@@ -49,7 +49,6 @@ To run this project locally, you'll need the following:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/ravin-d-27/ReviewSpot.git
-   cd ReviewSpot
    ```
 
 2. **Create a Virtual Environment (Optional)**
@@ -62,6 +61,7 @@ To run this project locally, you'll need the following:
 3. **Install Dependencies**
    Install the necessary packages listed in `requirements.txt`.
    ```bash
+   cd ReviewSpot
    pip install -r requirements.txt
    ```
 
